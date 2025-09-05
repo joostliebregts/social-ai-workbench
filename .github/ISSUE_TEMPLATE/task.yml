@@ -1,0 +1,41 @@
+name: Task
+description: Track improvements and organizational work for the workbench
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to track future improvements like adding metadata, organizing examples, or enhancing contribution workflows.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done?
+      placeholder: Describe the task or improvement...
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this task?
+      options:
+        - Low - Nice to have
+        - Medium - Should do eventually  
+        - High - Important for workbench function
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Task Type
+      description: What kind of work is this?
+      options:
+        - label: Organization (categorizing, metadata, structure)
+        - label: Content (adding examples, improving documentation)
+        - label: Technical (tooling, automation, workflows)
+        - label: Community (contribution guidelines, templates)
