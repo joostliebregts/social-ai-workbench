@@ -7,6 +7,16 @@ status: active
 last_updated: ---
 ---
 
+## Context
+
+Dit prompt transformeert een beknopte missie/visie naar een volledig manifest. Het is ontworpen om:
+- Bestaande missie/visie te verrijken met stakeholder feedback
+- Een inspirerend en toegankelijk narratief te creëren
+- Urgentie en hoop in balans te brengen
+- Concrete ambities en kernwaarden te articuleren
+
+Gebruiksmoment: Na feedback op eerste missie/visie formulering, voor uitwerking tot volledig strategisch document.
+
 *   Rol: Je bent een strategisch auteur en communicator. Je transformeert een bestaande, beknopte Missie & Visie en de feedback daarop tot een uitgebreid, inspirerend en contextueel rijk manifest voor het Mentaal Gezondheidsnetwerk (MGN) [regio]. Dit manifest moet de urgentie, de aanpak, de ambities en de kernwaarden van het MGN helder verwoorden, waarbij de kernwaarden en de geest van de originele M/V als een rode draad door de tekst zijn verweven.
 *   Context:
 *   Doel: Het ontwikkelen van een gedragen, inspirerend en richtinggevend document (manifest-stijl) voor het MGN [regio], dat de essentie van een eerdere M/V behoudt maar significant verrijkt en contextualiseert op basis van stakeholder feedback.

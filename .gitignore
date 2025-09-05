@@ -3,6 +3,9 @@
 .internal/
 *.local.md
 
+# Private context materials (sensitive client data & personal style)
+context/
+
 # OS files
 .DS_Store
 .DS_Store?

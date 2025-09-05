@@ -2,22 +2,28 @@
 
 ## System Context
 
-You are working with the Social AI Workbench, a living collection of real prompts used in collaborative AI projects. This is a **workshop bench** — messy, alive, and provisional. The core insight behind this project is transparency about how AI actually works in co-creative human processes, specifically during live meetings using near-real-time transcription.
+You are working with the Social AI Workbench, a project focused on **transparency about human-AI collaboration in live meetings**. This is a **workshop bench** — messy, alive, and provisional — that reveals what actually works when humans and AI collaborate during high-stakes conversations.
+
+The emerging insight: AI seems to strengthen human collaboration when used transparently during live dialogue, not to replace facilitators, but to catch patterns they might miss while staying present with the group.
 
 ### Core Philosophy
+- **Transparency first**: Show real AI collaboration processes, not idealized versions
+- **Learning from practice**: Examples come from actual high-stakes meetings since September 2024
 - **Ship-day mode**: This is a workbench, not a polished product
-- **Transparency**: Show real AI collaboration processes, not idealized versions  
 - **Live facilitation**: Prompts are designed for use during meetings, not just post-session
 - **Co-creative partnership**: AI as active dialogue partner, not passive tool
+- **Universal patterns**: While examples come from transformation planning, patterns apply across collaborative contexts
 - **Bilingual context**: Work fluidly between English and Dutch
 
 ## Critical Notes
 
-1. **Never create fake content**: Wait for real prompts from actual projects
+1. **Truth-first approach**: Never create fake content or fabricated examples - only document real experiences
 2. **Preserve the workbench aesthetic**: Keep things practical and direct, not polished
-3. **Respect privacy**: Any private transcripts in `/context/conversations/` are git-ignored
+3. **Respect privacy**: Private transcripts and context are handled separately (see CLAUDE.local.md if available)
 4. **Language flexibility**: Generate output in the primary language of the input transcript(s)
 5. **Multi-conversation awareness**: Understand Dembrane's data structure and reference conversations by name
+6. **Context clarity**: Transformation planning is the example domain, not the project purpose
+7. **Accessibility**: Documentation should be accessible to non-technical facilitators and teachers
 
 ## File Map
 
@@ -25,22 +31,22 @@ You are working with the Social AI Workbench, a living collection of real prompt
 /
 ├── README.md                    # English project overview
 ├── LEES_MIJ.md                 # Dutch project overview  
-├── CLAUDE.md                   # This file - AI assistant instructions
+├── CLAUDE.md                   # This file - Public AI assistant instructions
+├── CLAUDE.local.md             # Private context and instructions (git-ignored)
+├── CHANGELOG.md                # Project version history
 ├── METADATA_TEMPLATE.md        # Future prompt organization template
-├── .constraints.md             # Ship-day constraints and anti-patterns
-├── .gitignore                  # Excludes private conversations
+├── .gitignore                  # Defines private/ignored files
 ├── examples/                   # Real prompts from actual projects
-│   └── Transformatieplan/      # Amsterdam transformation planning prompts
-│       ├── facilitatorTool_dynamische_echo.md
-│       ├── FacilitatieTool_flipover_generator.md
-│       ├── werkblad_generator_KPI.md
-│       ├── missie_visie_generator.md
-│       └── [other transformation tools]
-├── learning/                   # Future: public learning materials
-├── context/
-│   ├── documentation_guidelines.md  # Writing guidance for repository docs
-│   ├── audience_facing/       # Working context and writing guides (git-tracked)
-│   └── conversations/         # Private transcripts (git-ignored)
+│   ├── transformatieplan_traject_1/  # First transformation trajectory
+│   │   └── sessie_1/               # Session-based organization
+│   ├── transformatieplan_traject_2/ # Second transformation trajectory  
+│   │   ├── sessie_1/               # Vision and mission work
+│   │   └── sessie_2/               # Implementation planning
+│   └── universal_for_dembrane/     # Cross-context prompts
+│       ├── echo_collective_voice.md # Real-time intervention
+│       └── echo_collectieve_stem.md # Dutch version
+├── learning/                   # Patterns and insights documentation
+│   └── ai-facilitation-patterns.md # Documented collaboration patterns
 ├── docs/                      
 │   └── tools/
 │       └── dembrane.md        # Comprehensive Dembrane context and workflow
@@ -71,15 +77,17 @@ Dembrane provides transcription data in a specific multi-conversation format:
 ### Live Facilitation Context
 These prompts are designed for live use during meetings:
 
-1. **Near-real-time transcription** via Dembrane QR codes
-2. **Co-facilitator** monitors transcripts and launches prompts
-3. **Rapid iteration**: prompt → output → group feedback → refined output
+1. **Near-real-time transcription** via Dembrane (facilitator scans QR, not participants)
+2. **Co-facilitator** monitors transcripts and launches prompts at strategic moments
+3. **Rapid iteration**: prompt → output → group feedback → refined output (30 seconds processing)
 4. **Live synthesis** transforms meetings from "talk and take notes" to "talk and see synthesis"
+5. **Human timing decisions**: Facilitators choose when to deploy interventions based on group dynamics
 
-### Roles in Live Sessions
-- **Facilitator**: Focuses on dialogue, introduces AI output to group
-- **Co-facilitator/Scribe**: Manages Dembrane, selects transcripts, launches prompts
-- **Project lead**: Manages versions, privacy, final integration
+### Roles in Live Sessions (The Human-AI Collaboration Pattern)
+- **Facilitator**: Stays fully present with group—reading faces, holding emotions, guiding process
+- **Co-facilitator/Scribe**: Monitors Dembrane, selects transcripts, launches prompts, handles rapid iterations
+- **AI System**: Catches patterns while humans hold space, generates possibilities while they guide process
+- **Project lead**: Manages versions, privacy, final integration (may overlap with co-facilitator)
 
 ## Paved Path
 
@@ -100,13 +108,18 @@ Follow the Dembrane design workflow from `/docs/tools/dembrane.md`:
 5. **Write Step-by-step Instructions** (numbered, with conditional logic)
 6. **Add Crucial Constraints** ("no fabrication", "cite sources", "recent input leading")
 7. **Assembly** (Role, Context, Constraints, Instructions, Output, Language, Transparency)
-8. **QA Check** using the checklist in dembrane.md
+8. **Add YAML Frontmatter** (category, tags, version, privacy placeholders)
+9. **Privacy Placeholders** (use `[ORGANISATIE]`, `[NAAM]`, `[DATUM]` for sensitive info)
+10. **QA Check** using the checklist in dembrane.md
 
-### Key Design Patterns
-- **Echo Interventions**: Single powerful question for live facilitation
-- **Implementation Generators**: Multi-step plans with transparency blocks  
-- **Synthesis Tools**: Thematic clustering across conversations
-- **Feedback Processors**: Revision with "Verantwoording van Verwerking"
+### Key Design Patterns (From Real Practice)
+- **Echo Interventions**: Single powerful question (1 sentence max) for live facilitation—timing matters more than perfection
+- **Worksheet Generators**: Transform group discussion into individual work tasks with active questions
+- **Narrative Synthesis**: Extract shared values and create coherent story from multiple voices  
+- **Implementation Generators**: Multi-step plans with transparency blocks and "Verantwoording"
+- **Feedback Processors**: Revision with explicit "Verantwoording van Verwerking Feedback"
+
+See `/learning/ai-facilitation-patterns.md` for detailed patterns extracted from actual usage.
 
 ## Common Tasks
 
@@ -114,16 +127,23 @@ Follow the Dembrane design workflow from `/docs/tools/dembrane.md`:
 ```bash
 # Explore examples directory
 ls -la examples/
-# Read a specific prompt
-cat examples/Transformatieplan/facilitatorTool_dynamische_echo.md
-# Check constraints and philosophy
-cat .constraints.md
+# List transformation trajectory examples
+ls -la examples/transformatieplan_traject_2/sessie_2/
+# Read a specific echo intervention
+cat examples/universal_for_dembrane/echo_collective_voice.md
+# Read a KPI worksheet generator
+cat examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md
+# Check documented patterns
+cat learning/ai-facilitation-patterns.md
+# Check for local context if available
+ls -la *.local.md 2>/dev/null || echo "No local context files"
 ```
 
 ### Working with Prompt Templates
-- Use `METADATA_TEMPLATE.md` structure for future documentation
+- Add YAML frontmatter with category, tags, version, and description
 - Follow transparency principles from dembrane.md
 - Include "Totstandkoming", "Verantwoording", "Levend Document" sections
+- Use privacy placeholders (`[ORGANISATIE]`, `[NAAM]`, `[DATUM]`) for sensitive data
 
 ### Language Handling
 - **Default**: Generate output in primary language of transcript(s)
@@ -139,38 +159,54 @@ Always include these safeguards in prompts:
 
 ## Working with Learning Materials
 
-The `/learning/` directory is planned for:
-- Public learning materials and iterations
-- Lessons-learned documentation
-- Prompt effectiveness ratings
-- Workshop methodologies
+The `/learning/` directory contains:
+- **ai-facilitation-patterns.md**: Documented patterns from real practice
+- **iterations/**: Tracking prompt evolution and improvements
+- **lessons-learned/**: Capturing insights from actual sessions
+- **prompt-ratings/**: Effectiveness assessments
 
-Current status: Not yet populated (ship-day constraints)
+Key resource: `/learning/ai-facilitation-patterns.md` extracts genuine patterns from Amsterdam transformation sessions, documenting what actually works in human-AI collaboration.
 
 ## Privacy and Transparency
 
-- **Private transcripts**: `/context/conversations/` is git-ignored
+- **Private content**: Handled via CLAUDE.local.md (git-ignored)
 - **Public prompts**: `/examples/` contains real but sanitized prompts
+- **Privacy placeholders**: Use `[ORGANISATIE]`, `[NAAM]`, `[DATUM]` for sensitive information
 - **Transparency blocks**: Document how outputs were created
 - **Version tracking**: Include changelog for iterative improvements
 
-## Repository Documentation Standards
+## Prompt Documentation Standards
 
-When working on public-facing repository documentation (README's, CHANGELOG's, etc.):
+All prompts in the `/examples/` directory follow a standardized documentation format:
 
-**See `/context/documentation_guidelines.md` for comprehensive guidance on:**
-- Writing style and tone for external documentation
-- Language policy (English/Dutch usage)
-- Content principles and privacy boundaries
-- Repository-specific formatting standards
-- Quality checklist for public-facing content
+### YAML Frontmatter
+Every prompt file includes YAML frontmatter with:
+```yaml
+---
+category: [1-9, see categories below]
+tags: [relevant tags]
+version: [semver, e.g., 1.0.0]
+description: [brief description]
+---
+```
 
-**Quick reference:**
-- Keep the workbench aesthetic - practical over polished
-- Start with concrete observations, not corporate speak
-- Use sentence case for headers
-- Evidence-link decisions and credit sources
-- Respect privacy boundaries (`[ORGANISATIE]` for client names)
+### Prompt Categories
+1. **Gespreksvragen** - Facilitation interventions for live dialogue
+2. **Inhoudelijke synthese** - Content analysis and clustering
+3. **Implementatie planning** - Action plans and roadmaps
+4. **Output generatoren** - Document and presentation creators
+5. **Feedback verwerking** - Revision and integration tools
+6. **Waardepropositie** - Value and vision articulation
+7. **Stakeholder analyse** - Participant and role mapping
+8. **Kwaliteitsborging** - Quality assurance and validation
+9. **Meta-reflectie** - Process and learning documentation
+
+### Privacy Standards
+- Use `[ORGANISATIE]` for organization names
+- Use `[NAAM]` for individual names
+- Use `[DATUM]` or `[SESSIE-DATUM]` for dates
+- Use `[LOCATIE]` for specific locations
+- Never include actual client names or identifying details
 
 ## Bilingual Context
 
@@ -180,15 +216,16 @@ This project operates bilingually (English/Dutch):
 - Generate outputs in the language of the input transcript
 - Maintain consistent terminology across languages
 
-## Anti-Patterns to Avoid
+## Anti-Patterns to Avoid (From Real Experience)
 
-From `.constraints.md`:
-- Over-engineering or complex organization systems
-- Creating fake content or examples
-- Premature categorization/metadata
-- Polished product mindset
-- Losing the "workshop bench" aesthetic
-- Feature creep beyond core purpose
+Key anti-patterns:
+- **Over-engineering**: Complex categorization systems nobody uses
+- **Fabrication**: Creating fake content, examples, or fictional details
+- **Poor timing**: Interrupting deep dialogue for AI insights
+- **Over-polish**: Losing the "workshop bench" aesthetic for perfect documentation
+- **Technical complexity**: Letting tools interfere with human process
+- **Feature creep**: Adding capabilities beyond core facilitation needs
+- **Assuming metadata**: Expecting rich tags/structure that doesn't exist
 
 ## Integration Notes
 
@@ -199,15 +236,37 @@ From `.constraints.md`:
 
 ---
 
+## Context Layer Architecture
+
+### Public Layer (CLAUDE.md)
+This file contains universally applicable instructions for working with the Social AI Workbench. It includes:
+- Core project philosophy and workflow
+- Public directory structure
+- General prompt design patterns
+- Documentation standards
+
+### Private Layer (CLAUDE.local.md)
+When present (git-ignored), CLAUDE.local.md extends these instructions with:
+- Personal working context and style preferences
+- References to private directories and materials
+- Client-specific project details
+- Local development paths and configurations
+
+**Note for AI Assistants:** If CLAUDE.local.md exists in your working directory, read it for additional context that supplements these public instructions. The layered approach ensures this public CLAUDE.md remains universally usable while supporting personalized workflows.
+
+---
+
 ## For AI Assistants: Key Reminders
 
-1. **Read `/docs/tools/dembrane.md` first** for comprehensive workflow understanding
-2. **Preserve the ship-day aesthetic** - practical and direct, not polished
-3. **Work with real content only** - never fabricate examples
-4. **Understand the live facilitation context** - these tools are used during meetings
-5. **Respect the bilingual nature** - be ready to work in Dutch or English
-6. **Follow Dembrane data structures** - conversations have names, tags, and transcripts
-7. **Include transparency in outputs** - document sources and limitations
-8. **Remember the core insight**: AI as co-creative partner during live dialogue
+1. **Project purpose**: Transparent learning about human-AI collaboration, NOT transformation planning
+2. **Truth-first**: Never fabricate—document only real experiences and actual patterns
+3. **Read key docs**: `/docs/tools/dembrane.md` for workflow, `/learning/ai-facilitation-patterns.md` for patterns
+4. **Preserve the ship-day aesthetic**: Practical and direct, not polished
+5. **Understand timing**: These tools are used during live meetings—timing beats sophistication
+6. **Respect the bilingual nature**: Be ready to work in Dutch or English
+7. **Follow Dembrane data structures**: Conversations have names, tags (maybe), and transcripts
+8. **Include transparency in outputs**: Document sources, limitations, and "Verantwoording"
+9. **Use privacy placeholders** consistently: `[ORGANISATIE]`, `[NAAM]`, `[DATUM]`, `[LOCATIE]`
+10. **Remember the core insight**: AI strengthens human collaboration by catching patterns while facilitators stay present
 
-This is a living document. Update it as the project evolves, but maintain the workbench philosophy.
+This is a living document. Update it as the project evolves, but maintain the workbench philosophy and truth-first approach.
