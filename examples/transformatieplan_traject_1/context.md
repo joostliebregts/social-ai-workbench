@@ -1,0 +1,1 @@
+Notitie voor mezelf, dit was de allereerste inzet tijdens co-creatieve sessies voor een transformatieplan. Hier zijn de prompts dus nog een stuk simpeler en minder uitgebreid dan in transformatieplan traject B. 
