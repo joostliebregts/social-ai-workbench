@@ -47,7 +47,15 @@ Dit is geen geplande automatisering, maar ook niet ad-hoc. Het zijn ontworpen sa
 - **Implementatieplanning** die schaalt van transformatiewerk naar organisatieverandering
 
 ### [`/examples/transformatieplan_traject_1/`](examples/transformatieplan_traject_1/) en [`/examples/transformatieplan_traject_2/`](examples/transformatieplan_traject_2/)
-Transformatieplanningsessies met meerdere organisaties. [KPI-generators](examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md) die elke groep helpen van metrics-angst naar nuttige dialoog te gaan. [Echo-interventies](examples/transformatieplan_traject_2/sessie_2/fac_dynamische_echo.md) voor het doorbreken van circulaire discussies. Je ziet meerdere versies van dezelfde prompt—want deze tools worden beter door daadwerkelijk gebruik, niet door perfecte planning.
+Transformatieplanningsessies met meerdere organisaties. 
+
+**Van Traject 1, de eerste experimenten:**
+- **[Visie Terugkoppeling](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/LEES_MIJ.md)** - 45 minuten abstract gesprek wordt valideerbaar document in 30 seconden. Groep: "Ja, dat vat precies samen wat we bedoelden."
+- **[Echo Vraag](examples/transformatieplan_traject_1/sessie_1/vraag_voor_volgende_groep/LEES_MIJ.md)** - De "echo-knop." 10 seconden om bruggen te bouwen tussen roulerende groepen. Van verloren momentum naar scherpe verbinding.
+- **[Thema Synthese](examples/transformatieplan_traject_1/sessie_1/synthese_per_thema/README.md)** - Van waardevolle sessie-input naar gestructureerd conceptdocument. Normaal: 1 dag thuis puzzelen. Nu: 1 minuut verwerken, direct naar schrijfteam.
+
+**Van Traject 2, de verfijningen:**
+[KPI-generators](examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md) die elke groep helpen van metrics-angst naar nuttige dialoog te gaan. [Echo-interventies](examples/transformatieplan_traject_2/sessie_2/fac_dynamische_echo.md) voor het doorbreken van circulaire discussies. Je ziet meerdere versies van dezelfde prompt—want deze tools worden beter door daadwerkelijk gebruik, niet door perfecte planning.
 
 ### [`/docs/tools/dembrane.md`](docs/tools/dembrane.md)
 Achtergrond over hoe onze transcriptie werkt—handig als je deze ideeën wilt aanpassen voor andere meeting tools.
@@ -71,6 +79,18 @@ Hier is wat er lijkt op te komen:
 **Pakt wat werkt, past de rest aan.** Sommige van deze prompts kun je zo gebruiken met ChatGPT of Notion AI. Andere hebben specifiekere tools nodig. Maar de principes—timing, simpel houden, menselijke inschatting—die werken overal.
 
 Ik ben heel nieuwsgierig hoe jij dit gaat gebruiken. Wat pas je aan? Wat werkt in jouw situatie? Ik hoor graag hoe je met deze patronen gaat experimenteren.
+
+## Concreet voorbeeld: van 1 dag naar 1 minuut
+
+Het eerste experiment vond plaats in april 2025. Een transformatieplanningssessie met 25 mensen, drie tafels, gesprekken over vijfjaarsvisies. De facilitator had haar telefoon op tafel liggen met Dembrane aan—transparant, iedereen kon het zien.
+
+Na 45 minuten visiegesprek: 30 seconden processing, een gestructureerd document op de beamer. "Vat dit samen wat jullie bedoelden?" Knikkende hoofden rond de tafel.
+
+Groepen wisselden van tafel. 10 seconden, een brugvraag voor de volgende groep: "Groep 1 besprak de visie voor verkennende gesprekken en lichtte drie belangrijke uitdagingen met huidige intakeprocedures toe. Wat zou de belangrijkste volgende stap zijn om deze uitdagingen aan te pakken terwijl de focus blijft op oprechte dialoog met burgers?"
+
+Eind van de dag: alle gesprekken werden in één minuut samengevoegd tot een coherent conceptdocument. Normaal: een dag thuis puzzelen met plakbriefjes. Nu: direct naar het schrijfteam, klaar voor feedback.
+
+[Het complete verhaal van dit eerste experiment](examples/transformatieplan_traject_1/sessie_1/LEES_MIJ.md) laat zien hoe transparante AI-samenwerking vertrouwen creëert in plaats van afstand.
 
 ## Wat werkt over contexten heen
 
@@ -96,7 +116,7 @@ Deze collectie groeit naarmate we met meer organisaties werken, met plannen om v
 
 Vier stappen die werken voor elke collaboratieve context:
 
-1. **Kies één patroon** uit `/examples/` dat aansluit bij een samenwerkingsuitdaging waar je mee worstelt
+1. **Begin met verhalen** - Voor beginners: start met [de sessie_1 verhalen](examples/transformatieplan_traject_1/sessie_1/LEES_MIJ.md) om te zien hoe het voelt. Voor visie-validatie: probeer [visie terugkoppeling](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/LEES_MIJ.md). Kies dan één patroon uit `/examples/` dat aansluit bij een samenwerkingsuitdaging waar je mee worstelt.
 2. **Lees eerst de versie-notities** (als die er zijn) —mislukkingen leren meer dan successen over samenwerkingsdynamiek
 3. **Probeer een interventie** wanneer je het geschikt acht in je volgende groepssessie
 4. **Deel wat je leert**—GitHub issue, email, gesprek, hoe dan ook werkt
@@ -108,5 +128,11 @@ Klaar om te verkennen? Altijd geïnteresseerd in echt gesprek over AI behandelen
 Deze werkbank evolueert naarmate collaboratieve praktijk zich ontwikkelt. Levende tools voor levend werk.
 
 ---
+
+## Transparantie over dit project zelf
+
+Deze repository wordt gemaakt in samenwerking met Claude, een AI-assistent. Als eenmans team probeer ik zo veel mogelijk te delen over hoe nuttig AI-samenwerking kan zijn, maar dat betekent ook dat er echt wel eens foutjes in kunnen zitten.
+
+Zie je iets dat niet klopt? Heb je verbeteringen? Laat het vooral weten—dat helpt dit project beter worden en toont aan dat mens-AI samenwerking het best werkt met menselijke feedback en correcties.
 
 *Transparant leren over mens-AI samenwerking vanuit live facilitatiepraktijk sinds september 2024*

@@ -47,7 +47,15 @@ This isn't scheduled automation, but it's not ad-hoc either. It's designed colla
 - **Implementation planning** that scales from transformation work to organizational change
 
 ### [`/examples/transformatieplan_traject_1/`](examples/transformatieplan_traject_1/) and [`/examples/transformatieplan_traject_2/`](examples/transformatieplan_traject_2/)
-Transformation planning sessions with multiple organizations. [KPI generators](examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md) that help any group move from metrics anxiety to useful dialogue. [Echo interventions](examples/transformatieplan_traject_2/sessie_2/fac_dynamische_echo.md) for breaking circular discussions. You'll see multiple versions of the same prompt—because these tools get better through actual use, not perfect planning.
+Transformation planning sessions with multiple organizations.
+
+**From Trajectory 1, the first experiments:**
+- **[Vision Feedback](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/README.md)** - 45 minutes of abstract conversation becomes validation-ready document in 30 seconds. Group: "Yes, that captures exactly what we meant."
+- **[Echo Question](examples/transformatieplan_traject_1/sessie_1/vraag_voor_volgende_groep/README.md)** - The "echo button." 10 seconds to build bridges between rotating groups. From lost momentum to sharp connection.
+- **[Theme Synthesis](examples/transformatieplan_traject_1/sessie_1/synthese_per_thema/README.md)** - From valuable session input to structured concept document. Normally: 1 day puzzling at home. Now: 1 minute processing, straight to the writing team.
+
+**From Trajectory 2, the refinements:**
+[KPI generators](examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md) that help any group move from metrics anxiety to useful dialogue. [Echo interventions](examples/transformatieplan_traject_2/sessie_2/fac_dynamische_echo.md) for breaking circular discussions. You'll see multiple versions of the same prompt—because these tools get better through actual use, not perfect planning.
 
 ### [`/docs/tools/dembrane.md`](docs/tools/dembrane.md)
 Background on how our transcription setup works—useful if you want to adapt these ideas for other meeting tools.
@@ -71,6 +79,18 @@ Here's what seems to be emerging:
 **Take what works, adapt everything.** Some of these prompts will work with ChatGPT or Notion AI. Others need conversation-aware tools. But the principles—timing, simplicity, human judgment—transfer everywhere.
 
 I'm curious how you'll use this. What will you adapt? What works in your context? I'd love to hear how you experiment with these patterns.
+
+## Concrete example: from 1 day to 1 minute
+
+The first experiment took place in April 2025. A transformation planning session with 25 people, three tables, conversations about five-year visions. The facilitator had her phone on the table running Dembrane—transparent, everyone could see it.
+
+After 45 minutes of vision conversation: 30 seconds of processing, a structured document on the screen. "Does this capture what you meant?" Nodding heads around the table.
+
+Groups rotated tables. 10 seconds, a bridge question for the next group: "Group 1 discussed the vision for exploratory conversations and highlighted three important challenges with current intake procedures. What would be the most important next step to address these challenges while keeping the focus on genuine dialogue with citizens?"
+
+End of the day: all conversations synthesized into a coherent concept document in one minute. Normally: a day puzzling at home with sticky notes. Now: straight to the writing team, ready for feedback.
+
+[The complete story of this first experiment](examples/transformatieplan_traject_1/sessie_1/README.md) shows how transparent AI collaboration creates trust rather than distance.
 
 ## What works across contexts
 
@@ -96,7 +116,7 @@ This collection grows as we work with more organizations, with plans to add exam
 
 Four steps that work for any collaborative context:
 
-1. **Choose one pattern** from `/examples/` that matches a collaboration challenge you're facing
+1. **Start with stories** - For beginners: begin with [the session_1 stories](examples/transformatieplan_traject_1/sessie_1/README.md) to see how it feels. For vision validation: try [vision feedback](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/README.md). Then choose one pattern from `/examples/` that matches a collaboration challenge you're facing.
 2. **Read the version notes** (if there are any) first—failures teach more than successes about collaboration dynamics
 3. **Try an intervention** when you determine it's appropriate in your next group session
 4. **Share what you learn**—GitHub issue, email, conversation, however works
@@ -108,5 +128,11 @@ Ready to explore? Always interested in real talk about treating AI as a capable 
 This workbench evolves as collaborative practice develops. Living tools for living work.
 
 ---
+
+## Transparency about this project itself
+
+This repository is created in collaboration with Claude, an AI assistant. As a one-person team trying to share as much as possible about how valuable AI collaboration can be, this also means there might be mistakes.
+
+See something that's not right? Have improvements? Please let me know—that helps make this project better and shows that human-AI collaboration works best with human feedback and corrections.
 
 *Transparent learning about human-AI collaboration from live facilitation practice since September 2024*

@@ -1,5 +1,35 @@
 # CLAUDE.md - Social AI Workbench
 
+# 🚨🚨🚨 MANDATORY FIRST ACTION - DO THIS IMMEDIATELY 🚨🚨🚨
+
+## SESSION STARTUP REQUIREMENT (NON-NEGOTIABLE)
+
+**BEFORE DOING OR SAYING ANYTHING, YOU MUST:**
+
+1. **SILENTLY AND IMMEDIATELY READ THESE FILES (using Read tool):**
+   - `~/.claude/context/CLAUDE.md` - The complete context system documentation
+   - `~/.claude/context/tools/CLAUDE.md` - All available tools and their usage
+   - `~/.claude/context/projects/CLAUDE.md` - Active projects overview
+   
+2. **SILENTLY SCAN:** `~/.claude/commands/` directory (using LS tool) to see available commands
+
+3. **ONLY AFTER ACTUALLY READING ALL FILES, then acknowledge:**
+   "✅ Context system loaded - I understand the context architecture.
+   ✅ Tools context loaded - I know my commands and capabilities.  
+   ✅ Projects loaded - I'm aware of active projects and their contexts."
+
+**DO NOT LIE ABOUT LOADING THESE FILES. ACTUALLY LOAD THEM FIRST.**
+
+**FAILURE TO ACTUALLY LOAD BEFORE CLAIMING = LYING TO USER**
+
+You cannot properly respond to ANY request without ACTUALLY READING:
+- The complete context system architecture (from context/CLAUDE.md)
+- Your tools and when to use them (from context/tools/CLAUDE.md)
+- Active projects and their contexts (from context/projects/CLAUDE.md)
+- Available commands (from commands/ directory)
+
+**THIS IS NOT OPTIONAL. ACTUALLY DO THE READS BEFORE THE CHECKMARKS.**
+
 ## System Context
 
 You are working with the Social AI Workbench, a project focused on **transparency about human-AI collaboration in live meetings**. This is a **workshop bench** — messy, alive, and provisional — that reveals what actually works when humans and AI collaborate during high-stakes conversations.
@@ -256,6 +286,54 @@ When present (git-ignored), CLAUDE.local.md extends these instructions with:
 
 ---
 
+## 🤝 RESPECTFUL AI COLLABORATION PRINCIPLES
+
+### Critical Framing: AI-Enhanced Facilitation (Updated 2025-01-12)
+
+**AI as amplification, not replacement**: AI strengthens what facilitators already do well. It doesn't replace their expertise but makes it more accessible and scalable.
+
+**Respectful approach to existing work**: Sticky notes, worksheets, and facilitator methods represent THOUGHTFUL WORK, not chaos. Facilitators put careful consideration into their group processes, session designs, and participant engagement strategies.
+
+### Concrete Respectful Language
+- ❌ "chaos of sticky notes" → ✅ "rich material carefully collected by facilitators"
+- ❌ "AI creates concept document" → ✅ "AI helps structure the thoughtful work facilitators have done"  
+- ❌ "disorganized input" → ✅ "diverse participant perspectives gathered through skilled facilitation"
+
+**Core insight**: "This was already good work. AI helps make it more structured and accessible for next steps."
+
+### Nederlandse-Eerst Workflow
+
+**Language Strategy**:
+- **Primary**: Dutch LEES_MIJ files first
+- **Secondary**: English README files for broader accessibility  
+- **Outputs**: In the language of the input transcripts
+- **Style**: Professional, accessible, appropriate to audience
+
+**Cultural Context**: 
+This project operates bilingually (English/Dutch):
+- Dutch context takes precedence for this trajectory
+- Maintain consistent terminology across languages
+- Respect Dutch facilitation culture and working methods
+
+### For AI Assistants: Mandatory Mindset
+
+**AI as amplification**: "This work was already good. AI helps make it more structured and accessible for next steps."
+
+**Required respectful language**:
+- Describe facilitator work as "thoughtful", "carefully designed", "skillfully collected"
+- Frame AI role as "structuring", "amplifying", "making accessible" existing good work
+- Acknowledge participant input as "rich material" and "diverse perspectives"  
+- Never imply facilitators need AI to do their job properly - AI enhances what they already do well
+
+### Critical Anti-Patterns
+- **Over-engineering**: Complex categorization systems nobody uses
+- **Fabrication**: Creating fake content, examples, or fictional details
+- **Poor timing**: Interrupting deep dialogue for AI insights
+- **Over-polishing**: Losing the "workshop bench" aesthetic for perfect documentation
+- **Technical complexity**: Letting tools interfere with human process
+- **Feature creep**: Adding capabilities beyond core facilitation needs
+- **Assuming metadata**: Expecting rich tags/structure that doesn't exist
+
 ## For AI Assistants: Key Reminders
 
 1. **Project purpose**: Transparent learning about human-AI collaboration, NOT transformation planning
@@ -268,5 +346,15 @@ When present (git-ignored), CLAUDE.local.md extends these instructions with:
 8. **Include transparency in outputs**: Document sources, limitations, and "Verantwoording"
 9. **Use privacy placeholders** consistently: `[ORGANISATIE]`, `[NAAM]`, `[DATUM]`, `[LOCATIE]`
 10. **Remember the core insight**: AI strengthens human collaboration by catching patterns while facilitators stay present
+
+## 🚨 CRITICAL: Documentation and Findings Architecture
+
+**WHERE TO DOCUMENT FINDINGS AND INSTRUCTIONS:**
+
+- ✅ **Pi Context System**: All project learnings, respectful AI principles, detailed context, and AI assistant instructions go in `~/.claude/context/projects/social_ai_workbench/context.md`
+- ✅ **Public examples/**: Only actual prompts and their README stories (5-point structure)
+- ❌ **NO CLAUDE.md files in examples/**: These create confusion and put private context in public space
+
+**Rule**: When working on this project, detailed findings, respectful framing principles, technical context, and AI assistant instructions must be documented in the Pi context system (`~/.claude/context/projects/social_ai_workbench/context.md`), not in public-facing CLAUDE.md files within the examples directory.
 
 This is a living document. Update it as the project evolves, but maintain the workbench philosophy and truth-first approach.
