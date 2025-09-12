@@ -1,8 +1,8 @@
-# Social AI Workbench
+# 🧪 Social AI Workbench
 
-*[English version: [README.md](README.md)]*
+🇬🇧 **English version**: [Click here for English version →](README.md)
 
-## Van daglange verwerking naar 1-minuut synthese
+## 📊 Van daglange verwerking naar 1-minuut synthese
 
 Stel je dit voor: 20-30 stakeholders van gemeenten en zorgorganisaties zitten rondom tafels vol plakbriefjes. De facilitator verzamelt discussiepunten en zorgt ervoor dat ieders stem wordt gehoord. Standaard proces.
 
@@ -12,7 +12,7 @@ Ik luisterde naar een projectleider die precies dit proces beschreef toen het me
 
 Haar reactie: "Dat zou ik wel een keer willen proberen."
 
-**Het resultaat: 1 minuut in plaats van 1 dag verwerking.**
+**⏱️ Het resultaat: 1 minuut in plaats van 1 dag verwerking.**
 
 De facilitator legde haar telefoon op tafel voor Dembrane transcriptie—niets storends, gewoon daar. Tijdens natuurlijke sessie-pauzes (toilet, koffie) verwerkten we het transcript in real-time. De AI output werd gekopieerd naar een Google Doc en getoond op het scherm via beamer.
 
@@ -20,15 +20,15 @@ De stakeholders zagen hun eigen taal direct terug gereflecteerd. Niet een gesani
 
 [Het complete verhaal van dit eerste experiment](examples/transformatieplan_traject_1/sessie_1/LEES_MIJ.md) laat zien precies hoe dit werkte.
 
-## Wat is deze werkbank
+## 🎯 Wat is deze werkbank
 
 Dit is een levende collectie van echte prompts die AI patronen laten vangen terwijl facilitators present blijven bij de groep. Niet de gepolijste versie uit demo's, maar de rommelige werkelijkheid van samenwerken tijdens live sessies.
 
 Stel je een echte werkbank voor—gereedschap met slijtageplekken, koffieringen op de plannen, potloodstrepen die bijhouden wat vorige keer werkte. Dit is de mijne, maar dan voor AI-ondersteunde samenwerking.
 
-Het doorbraak inzicht: **Timing verslaat verfijning.** AI hoeft niet perfect te zijn—het moet tijdig en herkenbaar zijn. Wanneer stakeholders hun eigen taal georganiseerd zagen in coherente vorm binnen minuten na het spreken ervan, verschoof er iets. In plaats van zich vervangen te voelen door technologie, voelden ze zich erdoor gehoord.
+Het doorbraak inzicht: **⏱️ Timing verslaat verfijning.** AI hoeft niet perfect te zijn—het moet tijdig en herkenbaar zijn. Wanneer stakeholders hun eigen taal georganiseerd zagen in coherente vorm binnen minuten na het spreken ervan, verschoof er iets. In plaats van zich vervangen te voelen door technologie, voelden ze zich erdoor gehoord.
 
-## Dit ligt erop uitgestald
+## 🔨 Dit ligt erop uitgestald
 
 - **Prompts die we echt hebben gebruikt tijdens belangrijke meetings** — geen theorie, maar getest in echte samenwerkingssessies
 - **Versie-iteraties** — gemarkeerd v4, v8, v9 omdat eerdere pogingen me iets essentiëels leerden
@@ -37,13 +37,13 @@ Het doorbraak inzicht: **Timing verslaat verfijning.** AI hoeft niet perfect te 
 
 Alles hier verdiende zijn plek door te werken wanneer het ertoe deed, of door op leerzame wijze te falen.
 
-## Het mens-AI samenwerkingspatroon
+## 🤝 Het mens-AI samenwerkingspatroon
 
 De beste mens-AI samenwerking voelt alsof de ruimte slimmer werd. Facilitators blijven volledig present—gezichten lezen, emoties vasthouden, proces begeleiden. Ondertussen legt Dembrane stil vast wat er gebeurt in meerdere gesprekken—zodat we later vragen kunnen stellen over patronen die we gemist zouden hebben.
 
 Dit is geen geplande automatisering, maar ook niet ad-hoc. Het zijn ontworpen samenwerkingsprocessen die strategische AI-patroonherkenning bevatten. De AI wordt achtergrondondersteuning voor menselijk inzicht.
 
-## Wat er in de voorbeelden staat
+## 📁 Wat er in de voorbeelden staat
 
 ### Echte samenwerkingstools met brede toepasbaarheid
 - **Echo-interventies** voor het doorbreken van circulaire discussies in elke groepssetting
@@ -54,10 +54,10 @@ Dit is geen geplande automatisering, maar ook niet ad-hoc. Het zijn ontworpen sa
 ### [`/examples/transformatieplan_traject_1/`](examples/transformatieplan_traject_1/) en [`/examples/transformatieplan_traject_2/`](examples/transformatieplan_traject_2/)
 Transformatieplanningsessies met meerdere organisaties. 
 
-**Van Traject 1, de eerste experimenten:**
-- **[Visie Terugkoppeling](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/LEES_MIJ.md)** - 45 minuten abstract gesprek wordt valideerbaar document in 30 seconden. Groep: "Ja, dat vat precies samen wat we bedoelden."
-- **[Echo Vraag](examples/transformatieplan_traject_1/sessie_1/vraag_voor_volgende_groep/LEES_MIJ.md)** - De "echo-knop." 10 seconden om bruggen te bouwen tussen roulerende groepen. Van verloren momentum naar scherpe verbinding.
-- **[Thema Synthese](examples/transformatieplan_traject_1/sessie_1/synthese_per_thema/README.md)** - Van waardevolle sessie-input naar gestructureerd conceptdocument. Normaal: 1 dag thuis puzzelen. Nu: 1 minuut verwerken, direct naar schrijfteam.
+**📚 Van Traject 1, de eerste experimenten:**
+- 🔮 **[Visie Terugkoppeling](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/LEES_MIJ.md)** - 45 minuten abstract gesprek wordt valideerbaar document in 30 seconden. Groep: "Ja, dat vat precies samen wat we bedoelden."
+- 🌉 **[Echo Vraag](examples/transformatieplan_traject_1/sessie_1/vraag_voor_volgende_groep/LEES_MIJ.md)** - De "echo-knop." 10 seconden om bruggen te bouwen tussen roulerende groepen. Van verloren momentum naar scherpe verbinding.
+- 🗂️ **[Thema Synthese](examples/transformatieplan_traject_1/sessie_1/synthese_per_thema/README.md)** - Van waardevolle sessie-input naar gestructureerd conceptdocument. Normaal: 1 dag thuis puzzelen. Nu: 1 minuut verwerken, direct naar schrijfteam.
 
 **Van Traject 2, de verfijningen:**
 [KPI-generators](examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md) die elke groep helpen van metrics-angst naar nuttige dialoog te gaan. [Echo-interventies](examples/transformatieplan_traject_2/sessie_2/fac_dynamische_echo.md) voor het doorbreken van circulaire discussies. Je ziet meerdere versies van dezelfde prompt—want deze tools worden beter door daadwerkelijk gebruik, niet door perfecte planning.
@@ -79,7 +79,7 @@ Meetings waar veel op het spel staat en facilitators elk patroon nodig hebben da
 
 De prompts onthullen universele patronen in mens-AI samenwerking die veel verder reiken dan transformatiewerk: elke collaboratieve context waar mensen present moeten blijven terwijl ze complexe, multi-threaded informatiestromen verwerken.
 
-## Wat ik tot nu toe leer (en waar ik nieuwsgierig naar ben)
+## 💡 Wat ik tot nu toe leer (en waar ik nieuwsgierig naar ben)
 
 Hier is wat er lijkt op te komen:
 
@@ -113,7 +113,7 @@ Deze patronen zullen niet allemaal werken in jouw context. Neem wat dient, pas a
 
 Deze collectie groeit naarmate we met meer organisaties werken, met plannen om voorbeelden toe te voegen uit verschillende collaboratieve contexten naarmate de aanpak zich ontwikkelt.
 
-## Aan de slag
+## 🚀 Aan de slag
 
 Vier stappen die werken voor elke collaboratieve context:
 

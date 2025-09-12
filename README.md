@@ -1,8 +1,8 @@
-# Social AI Workbench
+# 🧪 Social AI Workbench
 
-*[Nederlandse versie: [LEES_MIJ.md](LEES_MIJ.md)]*
+🇳🇱 **Nederlandse versie**: [Klik hier voor de Nederlandse versie →](LEES_MIJ.md)
 
-## From day-long processing to 1-minute synthesis
+## 📊 From day-long processing to 1-minute synthesis
 
 Picture this: 20-30 stakeholders from municipalities and care organizations sitting around tables covered with sticky notes. The facilitator is collecting discussion points, making sure everyone's voice gets heard. Standard process.
 
@@ -12,7 +12,7 @@ I was listening to a project leader describe exactly this process when it hit me
 
 Her response: "I'd like to try that once."
 
-**The result: 1 minute instead of 1 day processing.**
+**⏱️ The result: 1 minute instead of 1 day processing.**
 
 The facilitator put her phone on the table for Dembrane transcription—nothing disruptive, just there. During natural session breaks (bathroom, coffee), we processed the transcript in real-time. The AI output got copied to a Google Doc and shown on screen via beamer.
 
@@ -20,15 +20,15 @@ The stakeholders saw their own language reflected back immediately. Not some san
 
 [The complete story of this first experiment](examples/transformatieplan_traject_1/sessie_1/README.md) shows exactly how this worked.
 
-## What this workbench is
+## 🎯 What this workbench is
 
 This is a living collection of real prompts that help AI catch patterns while facilitators stay present with the group. Not the polished version you see in demos, but the messy reality of working together during live sessions.
 
 Picture an actual workbench—tools that show wear marks, coffee rings on the plans, pencil marks tracking what worked last time. This is mine, but for AI-assisted collaboration.
 
-The breakthrough insight: **Timing beats sophistication.** The AI output didn't need to be perfect—it needed to be timely and recognizable. When stakeholders saw their own language organized into coherent form within minutes of speaking it, something shifted. Instead of feeling replaced by technology, they felt heard by it.
+The breakthrough insight: **⏱️ Timing beats sophistication.** The AI output didn't need to be perfect—it needed to be timely and recognizable. When stakeholders saw their own language organized into coherent form within minutes of speaking it, something shifted. Instead of feeling replaced by technology, they felt heard by it.
 
-## What's scattered across it
+## 🔨 What's scattered across it
 
 - **Prompts we've actually used during high-stakes meetings** — not just theory, but tested in real collaboration sessions
 - **Version iterations** — marked v4, v8, v9 because earlier attempts taught me something essential
@@ -37,13 +37,13 @@ The breakthrough insight: **Timing beats sophistication.** The AI output didn't 
 
 Everything here earned its place by working when it mattered, or by failing instructively.
 
-## The human-AI collaboration pattern
+## 🤝 The human-AI collaboration pattern
 
 The best human-AI collaboration feels like the room got smarter. Facilitators stay fully present—reading faces, holding emotions, guiding process. Meanwhile, Dembrane quietly captures what's happening across multiple conversations—letting us ask questions later about patterns we might have missed.
 
 This isn't scheduled automation, but it's not ad-hoc either. It's designed collaboration processes that include strategic AI pattern recognition. The AI becomes background support for human insight.
 
-## What's in the examples
+## 📁 What's in the examples
 
 ### Real collaboration tools with broad applicability
 - **Echo interventions** for breaking circular discussions in any group setting
@@ -54,10 +54,10 @@ This isn't scheduled automation, but it's not ad-hoc either. It's designed colla
 ### [`/examples/transformatieplan_traject_1/`](examples/transformatieplan_traject_1/) and [`/examples/transformatieplan_traject_2/`](examples/transformatieplan_traject_2/)
 Transformation planning sessions with multiple organizations.
 
-**From Trajectory 1, the first experiments:**
-- **[Vision Feedback](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/README.md)** - 45 minutes of abstract conversation becomes validation-ready document in 30 seconds. Group: "Yes, that captures exactly what we meant."
-- **[Echo Question](examples/transformatieplan_traject_1/sessie_1/vraag_voor_volgende_groep/README.md)** - The "echo button." 10 seconds to build bridges between rotating groups. From lost momentum to sharp connection.
-- **[Theme Synthesis](examples/transformatieplan_traject_1/sessie_1/synthese_per_thema/README.md)** - From valuable session input to structured concept document. Normally: 1 day puzzling at home. Now: 1 minute processing, straight to the writing team.
+**📚 From Trajectory 1, the first experiments:**
+- 🔮 **[Vision Feedback](examples/transformatieplan_traject_1/sessie_1/visie_terugkoppeling/README.md)** - 45 minutes of abstract conversation becomes validation-ready document in 30 seconds. Group: "Yes, that captures exactly what we meant."
+- 🌉 **[Echo Question](examples/transformatieplan_traject_1/sessie_1/vraag_voor_volgende_groep/README.md)** - The "echo button." 10 seconds to build bridges between rotating groups. From lost momentum to sharp connection.
+- 🗂️ **[Theme Synthesis](examples/transformatieplan_traject_1/sessie_1/synthese_per_thema/README.md)** - From valuable session input to structured concept document. Normally: 1 day puzzling at home. Now: 1 minute processing, straight to the writing team.
 
 **From Trajectory 2, the refinements:**
 [KPI generators](examples/transformatieplan_traject_2/sessie_2/fac_werkblad_kpi.md) that help any group move from metrics anxiety to useful dialogue. [Echo interventions](examples/transformatieplan_traject_2/sessie_2/fac_dynamische_echo.md) for breaking circular discussions. You'll see multiple versions of the same prompt—because these tools get better through actual use, not perfect planning.
@@ -79,7 +79,7 @@ High-stakes meetings where facilitators need every pattern they can catch while 
 
 The prompts reveal universal patterns in human-AI collaboration that apply far beyond transformation work: any collaborative context where humans need to stay present while processing complex, multi-threaded information streams.
 
-## What I'm learning (and curious about)
+## 💡 What I'm learning (and curious about)
 
 Here's what seems to be emerging:
 
@@ -113,7 +113,7 @@ These patterns won't all work in your context. Take what serves, adapt everythin
 
 This collection grows as we work with more organizations, with plans to add examples over time from different collaborative contexts as the approach develops.
 
-## Getting started
+## 🚀 Getting started
 
 Four steps that work for any collaborative context:
 
