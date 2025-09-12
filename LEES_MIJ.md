@@ -2,27 +2,34 @@
 
 *[English version: [README.md](README.md)]*
 
-## Transparantie over mens-AI samenwerking tijdens live meetings
+## Van daglange verwerking naar 1-minuut synthese
 
-Dit is wat ik leer over AI die helpt tijdens collaboratieve trajecten —niet de gepolijste versie uit demo's, maar de rommelige werkelijkheid van samenwerken tijdens live sessies.
+Stel je dit voor: 20-30 stakeholders van gemeenten en zorgorganisaties zitten rondom tafels vol plakbriefjes. De facilitator verzamelt discussiepunten en zorgt ervoor dat ieders stem wordt gehoord. Standaard proces.
 
-Het inzicht dat opkomt: AI lijkt menselijke samenwerking te versterken wanneer het transparant wordt ingezet tijdens live dialoog. Niet om facilitators te vervangen, maar om patronen te vangen die zij zouden kunnen missen terwijl ze present blijven bij de groep.
+Dan komt het deel dat iedereen kent maar zelden bespreekt: na de sessie verdwijnt het projectteam voor een hele dag om al die plakbriefjes en verspreide gedachten te verwerken tot iets dat lijkt op een coherent concept document. Dat document gaat naar een 10-persoons schrijfteam voor feedback. Wijzigingen worden gemaakt. De cyclus herhaalt zich.
 
-Dit is een levende collectie van echte prompts gebruikt in collaboratieve AI projecten. Provisorisch, rommelig, levend. Het doel is transparant leren over wat werkelijk werkt wanneer mensen en AI samenwerken in gesprekken waar veel op het spel staat.
+Ik luisterde naar een projectleider die precies dit proces beschreef toen het me raakte: "Wat als AI dat concept document direct uit het gesprek zou kunnen creëren?"
 
-## Context: transformatieplanning als voorbeelddomein
+Haar reactie: "Dat zou ik wel een keer willen proberen."
 
-Deze specifieke voorbeelden komen voort uit transformatieplanningswerk sinds september 2024. GGZ-systemen in Nederland krijgen de taak het systeem te verbeteren—complex werk met meerdere stakeholders, concurrerende prioriteiten, en oprechte zorg voor kwetsbare groepen. Gemeenten en lokale organisaties krijgen de taak dit samen voor elkaar te krijgen.
+**Het resultaat: 1 minuut in plaats van 1 dag verwerking.**
 
-Meetings waar veel op het spel staat en facilitators elk patroon nodig hebben dat ze kunnen vangen terwijl ze ruimte houden voor wat opkomt. Perfecte testomgeving voor mens-AI samenwerking.
+De facilitator legde haar telefoon op tafel voor Dembrane transcriptie—niets storends, gewoon daar. Tijdens natuurlijke sessie-pauzes (toilet, koffie) verwerkten we het transcript in real-time. De AI output werd gekopieerd naar een Google Doc en getoond op het scherm via beamer.
 
-De prompts onthullen universele patronen in mens-AI samenwerking die veel verder reiken dan transformatiewerk: elke collaboratieve context waar mensen present moeten blijven terwijl ze complexe, multi-threaded informatiestromen verwerken.
+De stakeholders zagen hun eigen taal direct terug gereflecteerd. Niet een gesaniteerde versie geschreven door mensen die niet in de ruimte waren, maar hun werkelijke woorden en zinnen georganiseerd tot iets coherents. De herkenbaarheid was alles—deze mensen moesten het plan implementeren, dus ze moesten zichzelf erin zien.
 
-## Wat je op deze werkbank vindt
+[Het complete verhaal van dit eerste experiment](examples/transformatieplan_traject_1/sessie_1/LEES_MIJ.md) laat zien precies hoe dit werkte.
+
+## Wat is deze werkbank
+
+Dit is een levende collectie van echte prompts die AI patronen laten vangen terwijl facilitators present blijven bij de groep. Niet de gepolijste versie uit demo's, maar de rommelige werkelijkheid van samenwerken tijdens live sessies.
 
 Stel je een echte werkbank voor—gereedschap met slijtageplekken, koffieringen op de plannen, potloodstrepen die bijhouden wat vorige keer werkte. Dit is de mijne, maar dan voor AI-ondersteunde samenwerking.
 
-Dit ligt erop uitgestald:
+Het doorbraak inzicht: **Timing verslaat verfijning.** AI hoeft niet perfect te zijn—het moet tijdig en herkenbaar zijn. Wanneer stakeholders hun eigen taal georganiseerd zagen in coherente vorm binnen minuten na het spreken ervan, verschoof er iets. In plaats van zich vervangen te voelen door technologie, voelden ze zich erdoor gehoord.
+
+## Dit ligt erop uitgestald
+
 - **Prompts die we echt hebben gebruikt tijdens belangrijke meetings** — geen theorie, maar getest in echte samenwerkingssessies
 - **Versie-iteraties** — gemarkeerd v4, v8, v9 omdat eerdere pogingen me iets essentiëels leerden
 - **Wat niet werkte en waarom** — want van mislukkingen leer je meer dan van successen
@@ -33,8 +40,6 @@ Alles hier verdiende zijn plek door te werken wanneer het ertoe deed, of door op
 ## Het mens-AI samenwerkingspatroon
 
 De beste mens-AI samenwerking voelt alsof de ruimte slimmer werd. Facilitators blijven volledig present—gezichten lezen, emoties vasthouden, proces begeleiden. Ondertussen legt Dembrane stil vast wat er gebeurt in meerdere gesprekken—zodat we later vragen kunnen stellen over patronen die we gemist zouden hebben.
-
-De sessies volgen ontworpen processen gemaakt door procesfacilitators. De meeste prompts draaien op vooraf bepaalde momenten in het facilitatieontwerp. Specifiek voor echo-interventies (te vinden in de Universal folder) maken facilitators real-time beslissingen over timing—tijdens pauzes, tussen oefeningen, wanneer patronen opkomen.
 
 Dit is geen geplande automatisering, maar ook niet ad-hoc. Het zijn ontworpen samenwerkingsprocessen die strategische AI-patroonherkenning bevatten. De AI wordt achtergrondondersteuning voor menselijk inzicht.
 
@@ -66,6 +71,14 @@ Prompts ontworpen voor elke collaboratieve context. Bevat [echo-interventies](ex
 ### Versiegeschiedenis onthult leerpatronen
 Meerdere versies van dezelfde prompt laten zien hoe samenwerkingstools evolueren. Annotaties vangen wat werkte, wat niet, en waarom menselijk timing-oordeel belangrijker is dan perfecte prompts.
 
+## Context: transformatieplanning als voorbeelddomein
+
+Deze specifieke voorbeelden komen voort uit transformatieplanningswerk sinds september 2024. GGZ-systemen in Nederland krijgen de taak het systeem te verbeteren—complex werk met meerdere stakeholders, concurrerende prioriteiten, en oprechte zorg voor kwetsbare groepen. Gemeenten en lokale organisaties krijgen de taak dit samen voor elkaar te krijgen.
+
+Meetings waar veel op het spel staat en facilitators elk patroon nodig hebben dat ze kunnen vangen terwijl ze ruimte houden voor wat opkomt. Perfecte testomgeving voor mens-AI samenwerking.
+
+De prompts onthullen universele patronen in mens-AI samenwerking die veel verder reiken dan transformatiewerk: elke collaboratieve context waar mensen present moeten blijven terwijl ze complexe, multi-threaded informatiestromen verwerken.
+
 ## Wat ik tot nu toe leer (en waar ik nieuwsgierig naar ben)
 
 Hier is wat er lijkt op te komen:
@@ -79,18 +92,6 @@ Hier is wat er lijkt op te komen:
 **Pakt wat werkt, past de rest aan.** Sommige van deze prompts kun je zo gebruiken met ChatGPT of Notion AI. Andere hebben specifiekere tools nodig. Maar de principes—timing, simpel houden, menselijke inschatting—die werken overal.
 
 Ik ben heel nieuwsgierig hoe jij dit gaat gebruiken. Wat pas je aan? Wat werkt in jouw situatie? Ik hoor graag hoe je met deze patronen gaat experimenteren.
-
-## Concreet voorbeeld: van 1 dag naar 1 minuut
-
-Het eerste experiment vond plaats in april 2025. Een transformatieplanningssessie met 25 mensen, drie tafels, gesprekken over vijfjaarsvisies. De facilitator had haar telefoon op tafel liggen met Dembrane aan—transparant, iedereen kon het zien.
-
-Na 45 minuten visiegesprek: 30 seconden processing, een gestructureerd document op de beamer. "Vat dit samen wat jullie bedoelden?" Knikkende hoofden rond de tafel.
-
-Groepen wisselden van tafel. 10 seconden, een brugvraag voor de volgende groep: "Groep 1 besprak de visie voor verkennende gesprekken en lichtte drie belangrijke uitdagingen met huidige intakeprocedures toe. Wat zou de belangrijkste volgende stap zijn om deze uitdagingen aan te pakken terwijl de focus blijft op oprechte dialoog met burgers?"
-
-Eind van de dag: alle gesprekken werden in één minuut samengevoegd tot een coherent conceptdocument. Normaal: een dag thuis puzzelen met plakbriefjes. Nu: direct naar het schrijfteam, klaar voor feedback.
-
-[Het complete verhaal van dit eerste experiment](examples/transformatieplan_traject_1/sessie_1/LEES_MIJ.md) laat zien hoe transparante AI-samenwerking vertrouwen creëert in plaats van afstand.
 
 ## Wat werkt over contexten heen
 

@@ -2,27 +2,34 @@
 
 *[Nederlandse versie: [LEES_MIJ.md](LEES_MIJ.md)]*
 
-## Transparency about human-AI collaboration in live meetings
+## From day-long processing to 1-minute synthesis
 
-Here's what I'm learning about AI helping during collaborative meetings—not the polished version you see in demos, but the messy reality of working together during live sessions.
+Picture this: 20-30 stakeholders from municipalities and care organizations sitting around tables covered with sticky notes. The facilitator is collecting discussion points, making sure everyone's voice gets heard. Standard process.
 
-The emerging insight: AI seems to strengthen human collaboration when used transparently during live dialogue. Not to replace facilitators, but to catch patterns they might miss while staying present with the group.
+Then comes the part everyone knows but rarely talks about: after the session, the project team disappears for a full day to process all those sticky notes and scattered thoughts into something resembling a coherent concept document. That document goes to a 10-person writing team for feedback. Changes get made. The cycle repeats.
 
-This is a living collection of real prompts used in collaborative AI projects. Provisional, messy, alive. The goal is transparent learning about what actually works when humans and AI work together in high-stakes conversations.
+I was listening to a project leader describe exactly this process when it hit me: "What if AI could create that concept document directly from the conversation?"
 
-## Context: transformation planning as example domain
+Her response: "I'd like to try that once."
 
-These particular examples happen to come from transformation planning work since September 2024. Mental health care systems across the Netherlands are tasked with improving the system—complex work involving multiple stakeholders, competing priorities, and genuine care for vulnerable populations. Municipalities and local organizations are tasked with making this happen together.
+**The result: 1 minute instead of 1 day processing.**
 
-High-stakes meetings where facilitators need every pattern they can catch while holding space for what emerges. Perfect testing ground for human-AI collaboration.
+The facilitator put her phone on the table for Dembrane transcription—nothing disruptive, just there. During natural session breaks (bathroom, coffee), we processed the transcript in real-time. The AI output got copied to a Google Doc and shown on screen via beamer.
 
-The prompts reveal universal patterns in human-AI collaboration that apply far beyond transformation work: any collaborative context where humans need to stay present while processing complex, multi-threaded information streams.
+The stakeholders saw their own language reflected back immediately. Not some sanitized version written by people who weren't in the room, but their actual words and phrases organized into something coherent. The recognizability was everything—these people needed to implement the plan, so they needed to see themselves in it.
 
-## What you'll find on this bench
+[The complete story of this first experiment](examples/transformatieplan_traject_1/sessie_1/README.md) shows exactly how this worked.
+
+## What this workbench is
+
+This is a living collection of real prompts that help AI catch patterns while facilitators stay present with the group. Not the polished version you see in demos, but the messy reality of working together during live sessions.
 
 Picture an actual workbench—tools that show wear marks, coffee rings on the plans, pencil marks tracking what worked last time. This is mine, but for AI-assisted collaboration.
 
-Here's what's scattered across it:
+The breakthrough insight: **Timing beats sophistication.** The AI output didn't need to be perfect—it needed to be timely and recognizable. When stakeholders saw their own language organized into coherent form within minutes of speaking it, something shifted. Instead of feeling replaced by technology, they felt heard by it.
+
+## What's scattered across it
+
 - **Prompts we've actually used during high-stakes meetings** — not just theory, but tested in real collaboration sessions
 - **Version iterations** — marked v4, v8, v9 because earlier attempts taught me something essential
 - **What didn't work and why** — because failures teach more than successes
@@ -33,8 +40,6 @@ Everything here earned its place by working when it mattered, or by failing inst
 ## The human-AI collaboration pattern
 
 The best human-AI collaboration feels like the room got smarter. Facilitators stay fully present—reading faces, holding emotions, guiding process. Meanwhile, Dembrane quietly captures what's happening across multiple conversations—letting us ask questions later about patterns we might have missed.
-
-The sessions follow designed processes created by process facilitators. Most prompts run at predetermined points in the facilitation design. For echo interventions specifically (found in the Universal folder), facilitators make real-time decisions about timing—during breaks, between exercises, when patterns emerge.
 
 This isn't scheduled automation, but it's not ad-hoc either. It's designed collaboration processes that include strategic AI pattern recognition. The AI becomes background support for human insight.
 
@@ -66,6 +71,14 @@ Prompts designed for any collaborative context. Includes [echo interventions](ex
 ### Version history reveals learning patterns
 Multiple versions of the same prompt reflect how collaboration tools evolve. Annotations capture what worked, what didn't, and why human timing judgment matters more than perfect prompts.
 
+## Context: transformation planning as example domain
+
+These particular examples happen to come from transformation planning work since September 2024. Mental health care systems across the Netherlands are tasked with improving the system—complex work involving multiple stakeholders, competing priorities, and genuine care for vulnerable populations. Municipalities and local organizations are tasked with making this happen together.
+
+High-stakes meetings where facilitators need every pattern they can catch while holding space for what emerges. Perfect testing ground for human-AI collaboration.
+
+The prompts reveal universal patterns in human-AI collaboration that apply far beyond transformation work: any collaborative context where humans need to stay present while processing complex, multi-threaded information streams.
+
 ## What I'm learning (and curious about)
 
 Here's what seems to be emerging:
@@ -79,18 +92,6 @@ Here's what seems to be emerging:
 **Take what works, adapt everything.** Some of these prompts will work with ChatGPT or Notion AI. Others need conversation-aware tools. But the principles—timing, simplicity, human judgment—transfer everywhere.
 
 I'm curious how you'll use this. What will you adapt? What works in your context? I'd love to hear how you experiment with these patterns.
-
-## Concrete example: from 1 day to 1 minute
-
-The first experiment took place in April 2025. A transformation planning session with 25 people, three tables, conversations about five-year visions. The facilitator had her phone on the table running Dembrane—transparent, everyone could see it.
-
-After 45 minutes of vision conversation: 30 seconds of processing, a structured document on the screen. "Does this capture what you meant?" Nodding heads around the table.
-
-Groups rotated tables. 10 seconds, a bridge question for the next group: "Group 1 discussed the vision for exploratory conversations and highlighted three important challenges with current intake procedures. What would be the most important next step to address these challenges while keeping the focus on genuine dialogue with citizens?"
-
-End of the day: all conversations synthesized into a coherent concept document in one minute. Normally: a day puzzling at home with sticky notes. Now: straight to the writing team, ready for feedback.
-
-[The complete story of this first experiment](examples/transformatieplan_traject_1/sessie_1/README.md) shows how transparent AI collaboration creates trust rather than distance.
 
 ## What works across contexts
 
